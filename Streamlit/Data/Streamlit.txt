@@ -1,0 +1,18 @@
+python -m venv venv
+cd venv/Scripts
+activate
+cd ..
+cd ..
+pip install streamlit
+streamlit hello
+
+CTRL + Z
+pip freeze
+
+pip install -U nltk
+pip install -U scikit-learn
+
+In Linux and Mac
+python -m venv venv
+cd venv/bin
+source activate
